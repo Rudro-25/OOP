@@ -1,0 +1,37 @@
+Object − Objects have states and behaviors. Example: A dog has states - color, name, breed as well as behaviors – wagging the tail, barking, eating. An object is an instance of a class.
+
+Class − A class can be defined as a template/blueprint that describes the behavior/state that the object of its type support. Like class name: dog -> color,barking, hungry, sleeping.
+
+Variable:
+1. Local- used inside methods,constructor, block
+2. Instance- 
+3. Class- declare within class/ outside method/ with static keyword..
+
+Constructor:
+1. same name as class
+Public class MyClass {
+   Int num;
+   MyClass() {
+      num = 100;
+   }
+}
+MyClass t1 = new MyClass(); //acess as t1.num
+method:
+Just like function
+code:
+int c = minFunction(5, 11);
+public static int minFunction(int n1, int n2) {
+   int min;
+   if (n1 > n2)
+      min = n2;
+   else
+      min = n1;
+
+   return min; 
+}
+
+#Object Oriented:
+
+#Inheritence:
+Child access parents properties. extends.
+
