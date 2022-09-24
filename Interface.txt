@@ -1,0 +1,51 @@
+#Interface
+
+#Use in: Implement
+
+  #Defination:
+  An interface is a reference type in Java. 
+  It is similar to class. It is a collection of abstract methods. 
+  A class implements an interface, thereby inheriting the abstract methods of the interface.
+  
+  #can not instantiate 
+  #does not contain constructor.
+  #implemented by a class.
+  #an interface extend multiple interface
+  
+  
+  #Example:
+  
+  /* File name : Animal.java */
+interface Animal {
+   public void eat();
+   public void travel();
+}
+/////
+  
+   /* File name : MammalInt.java */
+public class MammalInt implements Animal {
+
+   public void eat() {
+      System.out.println("Mammal eats");
+   }
+
+   public void travel() {
+      System.out.println("Mammal travels");
+   } 
+
+   public int noOfLegs() {
+      return 0;
+   }
+
+   public static void main(String args[]) {
+      MammalInt m = new MammalInt();
+      m.eat();
+      m.travel();
+   }
+} 
+////
+Output:
+Mammal eats
+Mammal travels
+  
+  
