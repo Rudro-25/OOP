@@ -1,12 +1,12 @@
 ##Inheritance:
-  #Defination: The process where one class acquire the properties of another. (subclass/child_class <- super_class/parent_class)
+  #Defination: The process where one class acquire the properties of another. (subclass/child_class, access -> super_class/parent_class)
   
   #Here use "Extends" keyword to inherit.
   
   #Example:
-
-    class Animal {
-
+      
+      //Animal class
+      class Animal {
         // field and method of the parent class
         String name;
         public void eat() {
@@ -16,7 +16,6 @@
 
       // inherit from Animal
       class Dog extends Animal {
-
         // new method in subclass
         public void display() {
           System.out.println("My name is " + name);
